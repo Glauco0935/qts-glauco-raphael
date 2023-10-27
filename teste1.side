@@ -1,0 +1,129 @@
+{
+  "id": "031bf7bc-31b8-4e1a-ad9c-0f0627b2e136",
+  "version": "2.0",
+  "name": "exercicio",
+  "url": "https://store.steampowered.com/?l=portuguese",
+  "tests": [{
+    "id": "2498e83d-bceb-41ea-8dcb-0523b484fec0",
+    "name": "teste1",
+    "commands": [{
+      "id": "176abc49-b196-4624-b20f-1a8b3a25347e",
+      "comment": "",
+      "command": "open",
+      "target": "https://store.steampowered.com/?l=portuguese",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df4ecf05-d813-4500-a8fb-550813870003",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a08e4bf1-108c-49da-a6b9-ac691d1f8adb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71ddc23f-48b7-408a-b665-d53362efe10c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd8dc566-57b9-4ed3-b765-efef520f8080",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus > .home_area_spotlight:nth-child(1) img",
+      "targets": [
+        ["css=.focus > .home_area_spotlight:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='#spotlight_weekend_deal']", "xpath:img"],
+        ["xpath=//div[@id='spotlight_carousel']/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cfac3b3-1e92-440a-ae7e-c6442c1906cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.eventrow_OtherEvents_EventCtn_17gGs:nth-child(1) .eventrow_OtherEvents_MainImage_3xf4A",
+      "targets": [
+        ["css=.eventrow_OtherEvents_EventCtn_17gGs:nth-child(1) .eventrow_OtherEvents_MainImage_3xf4A", "css:finder"],
+        ["xpath=//img[contains(@src,'https://clan.akamai.steamstatic.com/images/25880686/69d5658265a6e25ab5907b8de92f3a9290eb1600_400x225.png')]", "xpath:img"],
+        ["xpath=//div[@id='tabletGrid']/div/div[5]/div[2]/div[4]/div/div/div[2]/a/div[3]/div/img", "xpath:idRelative"],
+        ["xpath=//a/div[3]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52ea8494-1d46-4f65-a11b-8648051c7e35",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,800)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43a4d937-acd6-40ed-8fd1-0ba25e57bc6b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,800)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3510a1b8-3890-4d70-a677-2303e6131376",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,800)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "417b807e-952f-41b5-a165-2fb42c59011f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,800)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca67739f-be2b-476e-9686-9b1708011dcc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,800)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62a4ead9-8def-464d-afca-f35a992b3735",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,800)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00b63e65-16ea-4347-a52b-fbf9814df741",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,800)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac842110-2a1c-444f-b311-d97161a68b9b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,800)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f935dda0-0f94-49a5-b7d0-0b97066f341d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2498e83d-bceb-41ea-8dcb-0523b484fec0"]
+  }],
+  "urls": ["https://store.steampowered.com/?l=portuguese"],
+  "plugins": []
+}

@@ -1,0 +1,97 @@
+{
+  "id": "a86b06cd-78eb-458c-a476-17cbb547e203",
+  "version": "2.0",
+  "name": "exercicio2",
+  "url": "https://store.steampowered.com/?l=portuguese",
+  "tests": [{
+    "id": "216c8fa7-6c8c-4439-8b82-5dbda0801ada",
+    "name": "teste2",
+    "commands": [{
+      "id": "afbfe8e5-8382-4f20-beb5-ffc19c7b1600",
+      "comment": "",
+      "command": "open",
+      "target": "https://store.steampowered.com/?l=portuguese",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4e5ca05-043e-42d2-873a-c91ee2262e54",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9f7d74b-283f-4b4f-966d-7a2b8bab66a4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=COMUNIDADE",
+      "targets": [
+        ["linkText=COMUNIDADE", "linkText"],
+        ["css=.menuitem:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'COMUNIDADE')]", "xpath:link"],
+        ["xpath=//div[@id='global_header']/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://steamcommunity.com/')])[9]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'COMUNIDADE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b422494-5c96-4381-b6e8-d16bbf5359f3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=COMUNIDADE",
+      "targets": [
+        ["linkText=COMUNIDADE", "linkText"],
+        ["css=.menuitem:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'COMUNIDADE')]", "xpath:link"],
+        ["xpath=//div[@id='global_header']/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://steamcommunity.com/')])[9]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'COMUNIDADE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5355a6c9-006a-4b87-bb05-094aea968d51",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mercado",
+      "targets": [
+        ["linkText=Mercado", "linkText"],
+        ["css=.submenu_community:nth-child(1) > .submenuitem:nth-child(4)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Mercado')])[2]", "xpath:link"],
+        ["xpath=//div[@id='global_header']/div/div[2]/div[2]/div/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://steamcommunity.com/market/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "111ffaae-ab30-4739-8e23-81cb6f382093",
+      "comment": "",
+      "command": "click",
+      "target": "css=#result_0 > .market_listing_item_name_block",
+      "targets": [
+        ["css=#result_0 > .market_listing_item_name_block", "css:finder"],
+        ["xpath=//div[@id='result_0']/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c1b1526-d136-44dd-8017-accf4b68d5d9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,800)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f196e530-c915-4517-af22-095f7ad1f1b4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["216c8fa7-6c8c-4439-8b82-5dbda0801ada"]
+  }],
+  "urls": ["https://store.steampowered.com/?l=portuguese"],
+  "plugins": []
+}

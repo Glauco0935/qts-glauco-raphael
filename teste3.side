@@ -1,0 +1,106 @@
+{
+  "id": "04f71b87-3700-429c-8c08-479cf47e64ed",
+  "version": "2.0",
+  "name": "exercicio3",
+  "url": "https://store.steampowered.com/?l=portuguese",
+  "tests": [{
+    "id": "074b4eb3-813a-41c7-8f38-ef83e7c5a8ce",
+    "name": "teste3",
+    "commands": [{
+      "id": "a71b14df-7f66-4be0-84e1-e23fc0aaaa11",
+      "comment": "",
+      "command": "open",
+      "target": "https://store.steampowered.com/?l=portuguese",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85c95f6a-4c2e-4731-94be-42cc1269f70f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86b738d7-fa6e-4634-a862-5f3c7cdd1848",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=COMUNIDADE",
+      "targets": [
+        ["linkText=COMUNIDADE", "linkText"],
+        ["css=.menuitem:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'COMUNIDADE')]", "xpath:link"],
+        ["xpath=//div[@id='global_header']/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://steamcommunity.com/')])[9]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'COMUNIDADE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39255cfe-781f-48af-9cfd-6fff764d8af7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=COMUNIDADE",
+      "targets": [
+        ["linkText=COMUNIDADE", "linkText"],
+        ["css=.menuitem:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'COMUNIDADE')]", "xpath:link"],
+        ["xpath=//div[@id='global_header']/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://steamcommunity.com/')])[9]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'COMUNIDADE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e6943b4-5199-4797-83c2-1b91ea0415d8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SUPORTE",
+      "targets": [
+        ["linkText=SUPORTE", "linkText"],
+        ["css=.menuitem:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'SUPORTE')]", "xpath:link"],
+        ["xpath=//div[@id='global_header']/div/div[2]/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://help.steampowered.com/pt/')])[2]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div[2]/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'SUPORTE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d0c4188-0bb7-4f91-9c25-e316373eaf44",
+      "comment": "",
+      "command": "click",
+      "target": "css=.help_wizard_button:nth-child(17) > span",
+      "targets": [
+        ["css=.help_wizard_button:nth-child(17) > span", "css:finder"],
+        ["xpath=//div[@id='help_home_block']/a[12]/span", "xpath:idRelative"],
+        ["xpath=//a[12]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Foram-me cobradas transações do Steam que não fiz')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a88e185d-7777-44d2-89a0-eab459e8faee",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Eu tenho uma conta Steam",
+      "targets": [
+        ["linkText=Eu tenho uma conta Steam", "linkText"],
+        ["css=.help_hide_for_create_request:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='wizard_contents']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://help.steampowered.com/pt/wizard/Login?redir=%2Fpt%2Fwizard%2FHelpWithUnknownCharges%3Fgamepad%3D0')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Eu tenho uma conta Steam')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "40ff8a6a-642d-4eb3-97b3-95ec853e3e59",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["074b4eb3-813a-41c7-8f38-ef83e7c5a8ce"]
+  }],
+  "urls": ["https://store.steampowered.com/?l=portuguese"],
+  "plugins": []
+}
